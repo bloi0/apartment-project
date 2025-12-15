@@ -1,0 +1,14 @@
+{
+  "name": "apartment-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Root workspace scripts for running backend and frontend together",
+  "scripts": {
+    "dev": "concurrently -n backend,frontend -c green,cyan \"cd apartmentbackend && mvnw.cmd spring-boot:run\" \"cd apartment-frontend && npm run dev\"",
+    "backend": "cd apartmentbackend && mvnw.cmd spring-boot:run",
+    "frontend": "cd apartment-frontend && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+.modal-body {
+  margin-bottom: var(--space-5);
+  color: var(--color-neutral-700);
+  line-height: var(--leading-relaxed);
+  font-size: var(--text-sm);
+}
+
+.modal-footer {
+  display: flex;
+  gap: var(--space-3);
+  justify-content: flex-end;
+}
+
+.modal-footer button {
+  padding: var(--space-2) var(--space-5);
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  font-size: var(--text-sm);
+  font-weight: var(--font-medium);
+  transition: all var(--transition-fast);
+  height: 36px;
+}

@@ -1,0 +1,35 @@
+.empty-state {
+  text-align: center;
+  padding: var(--space-12) var(--space-6);
+  background-color: var(--color-neutral-50);
+  border-radius: var(--radius-lg);
+  margin: var(--space-5) 0;
+}
+
+.empty-state-icon {
+  font-size: 64px;
+  margin-bottom: var(--space-4);
+  color: var(--color-neutral-300);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-state-title {
+  margin: 0 0 var(--space-2) 0;
+  font-size: var(--text-xl);
+  font-weight: var(--font-semibold);
+  color: var(--color-neutral-700);
+}
+
+.empty-state-message {
+  margin: 0 0 var(--space-6) 0;
+  color: var(--color-neutral-500);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+}
+
+.empty-state button {
+  padding: var(--space-3) var(--space-6);
+  font-size: var(--text-base);
+}
